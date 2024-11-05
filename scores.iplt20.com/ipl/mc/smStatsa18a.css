@@ -1,0 +1,881 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300&amp;display=swap); @import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap); @import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,500&display=swap); @import url(https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap); @import url(https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap); @import url(https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap); @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap); 
+.sm-lb-header:before,.sm-lb-pic:before {
+    top: 0;
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.sm-flex {
+    display: flex
+}
+
+.sm-justify-between {
+    justify-content: space-between
+}
+
+.t-ct {
+    text-align: center
+}
+
+.h-web {
+    display: none!important
+}
+
+.s-web {
+    display: block!important
+}
+
+.smStatsBg {
+    clear: both;
+    overflow: hidden;
+}
+
+.np-leader {
+    width: 100%;
+}
+
+/*.smStatsBg .np-leaderInnserSectionWrp:after { content:''; position: absolute; left:0;right:0;bottom:0; top:0;background-image: url(https://iplt20-dev-v2.epicon.in/assets/images/bottom-section-bg.svg); background-repeat: repeat-y; background-size: 100%;background-position: center -30px; z-index: 0; }*/
+.smStatsBg .container:nth-child(1) {
+    z-index: 3;
+}
+
+.smStatsBg .container {
+    position: relative;
+    z-index: 2;
+}
+
+.smStatsBg .pp, .smStatsBg .dd {
+    position: relative;
+}
+
+.smStatsBg .pp:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url(https://iplt20-dev-v2.epicon.in/assets/images/bottom-section-bg.svg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+    background-position: center -46px;
+    z-index: 0;
+}
+
+.smStatsBg .dd {
+
+}
+
+.smStatsBg .dd:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url(images/tp.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 340px;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.smStatsBg .dd:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url(images/bt.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 340px;
+    opacity: 0.2;
+    z-index: 0;
+}
+
+.np-leaderInnserSectionWrp {
+    max-width: 100%;
+}
+
+.matchCenter.stats-widget {
+    float: left;
+    width: 100%;
+    /*background-image:url(../images/sm-state-bg_2024.png);background-position:center 36rem;background-repeat: repeat-y;*/
+}
+
+.matchCenter.stats-widget .matches-main {
+    padding: 20px 0
+}
+
+.awa-container {
+    position: relative;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10rem 0;
+}
+
+.awa-container .awa-box {
+    cursor: pointer;
+    width: clamp(320px,100%,400px);
+    min-height: 250px;
+    border-radius: 14px;
+    position: relative;
+    overflow: hidden;
+    background: rgba(23,64,145,1)
+}
+
+.awa-container .awa-box.ups {
+    background: #A3238E;
+}
+
+.awa-container .awa-box.paytm {
+    background: #33A3DC;
+}
+
+.awa-container .awa-box img {
+    width: 100%;
+    padding-top: 0;
+}
+
+.awa-container .awa-box img.awa-ipl-logo {
+    width: 84px;
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    display: none;
+}
+
+.awa-container .awa-box .awa-box-tag {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2rem 0;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    color: #fff;
+    font-family: 'HelveticaNeueRoman';
+    text-transform: capitalize;
+    text-align: center
+}
+
+.awa-container .awa-box .awa-box-tag span {
+    font-family: 'HelveticaNeueBold';
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 400
+}
+
+.awa-container .awa-box .awa-box-tag.mvp {
+    font-size: 60px;
+}
+
+.awa-container .awa-box .awa-box-tag.fair {
+    font-size: 44px;
+}
+
+.awa-container .awa-box .awa-box-tag.fair, .awa-container .awa-box .awa-box-tag.mvp {
+    display: none;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.awa-box svg {
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+
+.np-leaderInnserSectionBg {
+    background-image: none;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center top;
+	padding-bottom: 0;
+}
+
+.sm-lb-tab {
+    display: flex;
+    transform: skew(-20deg)
+}
+
+.sm-lb-tab__link {
+    border: 1px solid #b8b9bb;
+    display: flex;
+    width: 100px
+}
+
+.sm-lb-tab a {
+    padding: 10px;
+    margin: 4px;
+    color: #11141c;
+    display: block
+}
+
+.sm-lb-tab a.statsContentTab {
+    background: #dc5034
+}
+
+.sm-lb-tab a.firstbtn {
+    background: #fff
+}
+
+.smStatsWidget .np-recordtab__btn {
+    padding: 4px 0;
+    margin: 2px;
+    background: 0 0;
+    border-radius: 0;
+    font-size: 14px;
+    color: #000;
+    width: 100%;
+    transition: .3s
+}
+
+.smStatsWidget .np-recordtab__btn.active,.smStatsWidget .np-recordtab__btn:hover {
+    background: #EF4123;
+    color: #fff
+}
+
+.np-recordtab__btn.firstbtn,.st-ply {
+    color: #000
+}
+
+.np-recordtabBg {
+    background: 0 0;
+    transform: skewX(-20deg);
+    max-width: inherit;
+    display: flex;
+    justify-content: center
+}
+
+.cSBDisplay,.sm-lb-header {
+    background-repeat: no-repeat
+}
+
+.statsTable .CSK_0,.statsTable .DC_0,.statsTable .DEC_0,.statsTable .GL_0,.statsTable .GT_0,.statsTable .KKR_0,.statsTable .KTK_0,.statsTable .LSG_0,.statsTable .MI_0,.statsTable .PBKS_0,.statsTable .PWI_0,.statsTable .RCB_0,.statsTable .RPSG_0,.statsTable .RPS_0,.statsTable .RR_0,.statsTable .SG_0,.statsTable .SRH_0,.statsTable .SR_0,.statsTable ._0,table.st-table tr.np-bg-org {
+    background: #fafbfc!important
+}
+
+ul.filter-list li.filterSeasonList.active label,ul.filter-list li.filterTeamsList.active label {
+    background: #ef4123;
+    color: #fff
+}
+
+ul.filter-list li.filterSeasonList.active label:before,ul.filter-list li.filterTeamsList.active label:before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    top: calc(50% - 5px);
+    left: 10px;
+    height: 10px;
+    background: url(../assets/images/correct-sign.png) 0 0/cover
+}
+
+ul.filter-list li {
+    text-transform: capitalize
+}
+
+.st-table-wrap {
+    border-radius: 15px;
+    border: 1px solid #d9d9d9
+}
+
+.statsTable.archiveseason .np-bg-org td {
+    padding: 0
+}
+
+.st-table tr td:first-child {
+    color: #000;
+    font-family: 'HelveticaNeueBold';
+    font-size: 22px
+}
+
+.st-tableBg table.st-table {
+    text-align: center;
+    font-size: 14px;
+    background: #fafbfc
+}
+
+table.st-table .st-table__head th {
+    letter-spacing: 1px;
+    border-collapse: separate;
+    border-spacing: 5px 5px;
+    padding: 12px;text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    background: #1e263d;
+    font-family: 'HelveticaNeueRoman'
+}
+
+table.st-table tr:not(:first-child) {
+    border-bottom: 1px solid #d9d9d9
+}
+
+table.st-table tr td {
+    font-size: 14px;
+    color: rgba(17,20,28,.7);
+    font-family: 'HelveticaNeueRoman';
+    padding: 6px 0 0
+}
+
+.st-team-wrp {
+    width: 150px!important;
+    display: flex;
+    align-items: center;
+    margin-right: 10px
+}
+
+.st-ply .st-ply-name {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    text-align: left;
+    font-family: 'HelveticaNeueRoman'
+}
+
+.sm-logo,.smStatsWidget .statsTable .np-ico img,.statsTypeFilter .cSBListItems {
+    display: none
+}
+
+.sm-lb-header {
+    position: relative;
+    background-image: url(../images/lb-hd-bg_2024.png);
+    background-position: center;
+    background-color: #000000;
+    float: left;
+    width: 100%
+}
+
+.sm-lb-header:before {
+    position: absolute;
+    background: linear-gradient(360deg,rgba(0,0,0,0.9) 2%,rgba(0,0,0,0) 60%);
+    z-index: 3
+}
+
+.sm-lb-pic,.sm-lb-pic img,.smStatsWidget .np-card__list.all-time-batting li,.smStatsWidget .photos {
+    position: relative
+}
+
+.sm-lb-hd__inner {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(images/stats-page.png);
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+
+.sm-lb-pic:before {
+    position: absolute;
+    background: transparent;
+}
+
+.sm-lb-pic:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 58px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #222C5A;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.sm-lb-pic img {
+    top: 50px;
+    z-index: 2;
+    width: 350px
+}
+
+.sm-lb-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    z-index: 99
+}
+
+.sm-lb-ply-name {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: 'AlineaBold';
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-block-end:20px}
+
+#alltimeRecords .view-all,.sm-lb-table-value,.smStatsWidget .number-title {
+    font-family: 'HelveticaNeueRoman';
+    text-transform: capitalize
+}
+
+.sm-lb-tm-logo {
+    padding-left: 20px
+}
+
+.sm-lb-tm-logo img {
+    width: 55px
+}
+
+.sm-lb-table {
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    color: #fff;
+    display: flex
+}
+
+.sm-lb-table-value {
+    padding: 22px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgba(255,255,255,.75)
+}
+
+.sm-lb-pos,.sm-lb-table-value span {
+    color: #fff;
+    font-family: 'HelveticaNeueRoman';
+}
+
+.sm-lb-table-value:not(:last-child) {
+    border-right: 1px solid #d9d9d9
+}
+
+.sm-lb-table-value span {
+    font-size: 22px;
+    line-height: 24px
+}
+
+.sm-lb-pos {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    font-weight: 700;
+    font-size: 355px;
+    z-index: 1;
+}
+
+table.st-table tr td.no-data-text {
+    font-size: 14px;
+    font-family: 'HelveticaNeueRoman'
+}
+
+.smStatsWidget {
+    border: none;
+    box-shadow: none
+}
+
+.smStatsWidget .name {
+    font-size: 16px;
+    font-style: normal;
+    color: #0a1c58;
+    font-family: 'HelveticaNeueRoman';
+    margin-block-end:4px}
+
+.np-battingtable__title {
+    color: #11141c;     font-family: 'AlineaBold'; font-style: normal;
+}
+
+#alltimeRecords .view-all {
+    border-top: 1px solid #e8e8e8;
+    padding-top: 10px;
+    font-weight: 400
+}
+
+.smStatsWidget .number-title {
+    letter-spacing: normal;
+    font-weight: 400;
+    height: auto
+}
+
+.smStatsWidget .numbers {
+    font-family: 'HelveticaNeueBold',cursive;
+    color: #11141c;
+    font-size: 22px;
+    line-height: 24px;
+    height: auto
+}
+
+.st-ply-tm-name {
+    text-align: left;
+    font-size: 12px;
+    color: rgba(17,20,28,.7)
+}
+
+.smStatsWidget .np-mostrunsTable {
+    width: 100%;
+    clear: both;
+    overflow: auto;
+	margin-bottom: 0;
+}
+
+.smStatsWidget .np-leaderInnserSectionWrp .np-recordTab--title {
+    padding-block:25px}
+
+.smStatsWidget .playercard-box-inner-at a {
+    margin-top: 5px;
+    display: block
+}
+
+.smStatsWidget .cap-holder-title {
+    width: 75%;
+    font-weight: 400;
+    padding: 2px 0;
+    clip-path: polygon(10% 0%,100% 0%,90% 100%,0% 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 130px;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1
+}
+
+.smStatsWidget .playercard-box-inner-at {
+    margin-top: 5px;
+    display: block;
+    clear: both;
+    overflow: hidden
+}
+
+.smStatsWidget .photos:after {
+    content: '';
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,rgba(255,255,255,.2) 0,transparent 50%);
+    width: 190px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto
+}
+
+.cSBListFItems.selected::before,.cSBListFItems::before {
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 0;
+    background-position: center
+}
+
+.smStatsWidget .photos img {
+    width: auto;
+    height: 90%;
+    display: initial;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 1
+}
+
+.customSelecBox {
+    width: 100%;
+    position: relative
+}
+
+.cSBDisplay {
+    width: 100%;
+    outline: 0;
+    color: #11141c;
+    height: 42px;
+    text-align: left;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border: 1px solid #d9d9d9;
+    margin: 0;
+    padding: 5px 45px 5px 16px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(images/drop_down.png);
+    background-position: 95% center;
+    background-color: #fff;
+    box-shadow: none;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'HelveticaNeueRoman';
+    text-transform: capitalize
+}
+
+.cSBListFItems,.cSBListItems {
+    font-family: 'HelveticaNeueBold';
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer
+}
+
+.cSBList {
+    width: 100%;
+    position: absolute;
+    top: 33px;
+    left: 0;
+    background: #fff;
+    z-index: 1000;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.07),0 1px 3px 0 rgba(0,0,0,.06),0 2px 1px -3px rgba(0,0,0,.05);
+    max-height: 267px;
+    overflow: auto;
+    display: none
+}
+
+.cSBListItems,.cSBListItemsFilter {
+    border-bottom: 1px solid #dfdfdf;
+    width: 100%
+}
+
+.cSBList.active,.statsTypeFilter .cSBListItems.selected {
+    display: block
+}
+
+.cSBListItems {
+    padding: 5px 10px;
+    color: #191919;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    text-align: left
+}
+
+.cSBListItems.allFilterSel {
+    color: #1d2e71;
+    font-family: 'HelveticaNeueBold'
+}
+
+.cSBListItems:last-child {
+    border: none
+}
+
+.cSBListItems.active,.cSBListItems:hover {
+    background-color: #050a5c;
+    color: #fff
+}
+
+#matchFilterWrapper.cSB {
+    overflow: visible
+}
+
+.cSBListSearch input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #dfdfdf;
+    color: #0071c6;
+    outline: 0;
+    font-size: 12px
+}
+
+.drop-down-filter {
+    background-color: transparent;
+    padding: 3rem 0 10px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0 auto 10px
+}
+
+.dropDownListImg {
+    max-width: 30px;
+    max-height: 30px;
+    margin-right: 5px
+}
+
+.cSBListItemsFilter {
+    padding: 5px 10px
+}
+
+.cSBListFItems {
+    position: relative;
+    padding-left: 20px;
+    font-style: normal;
+    line-height: 22px;
+    color: #11141c;
+    opacity: .5;
+    display: inline-block;
+    margin-right: 5px
+}
+
+.cSBListFItems.selected {
+    opacity: 1
+}
+
+.cSBListFItems::before {
+    background-image: url(images/radio.png);
+    position: absolute;
+    background-repeat: no-repeat
+}
+
+.cSBListFItems.selected::before {
+    background-image: url(images/radio_select.png);
+    position: absolute;
+    background-repeat: no-repeat
+}
+
+.inputSearch {
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background-image: url(images/input_search.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 100%;
+    height: 37px;
+    padding: 10px 20px
+}
+
+#fairplayTAB .st-team-wrp {
+    width: auto!important
+}
+
+.st-tableBg .np-mostrunsTab__btn {
+    transform: skewX(-20deg);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.atl-mobile {
+    display: none;
+}
+
+@media (max-width: 920px) {
+    .st-table- wrap .st-table {
+        overflow-x:scroll;
+        width: fit-content;
+        max-width: 100%;
+        display: block
+    }
+}
+
+@media (max-width: 768px) {
+    .awa-container,.np-leaderInnserSectionBg,.sm-lb-hd__inner {
+        flex-direction:column
+    }
+
+    .awa-container {
+        gap: 30px
+    }
+
+    table.st-table .pbi,table.st-table .pbi img {
+        width: 60px;
+        height: auto
+    }
+
+    .matchCenter.stats-widget .atl-mobile,.s-mobile.inactive {
+        display: none!important
+    }
+
+    .h-mobile,.sm-lb-pos {
+        display: none
+    }
+
+    .s-mobile {
+        display: block!important
+    }
+
+    table.st-table .pbi {
+        display: flex;
+        margin-right: 5px;
+        align-items: end
+    }
+
+    .smStatsWidget .np-leaderInnserSectionBg {
+        padding: 0 10px
+    }
+
+    .sm-lb-pic::after {
+        left: -33px
+    }
+
+    .sm-lb-details {
+        margin-block: 16px 10px;
+    }
+
+    .sm-lb-pic img {
+        width: 240px;
+        top: 0
+    }
+
+    .sm-lb-table {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-block-end:10px;border: none
+    }
+
+    table.st-table .st-table__head th {
+        padding: 12px 26px
+    }
+
+    .sm-lb-ply-name {
+        color: #11141c;
+        font-size: 24px;
+        justify-content: space-between;
+        margin-block-end: 1rem;
+    }
+
+    .sm-lb-tm-logo img {
+        width: 42px
+    }
+
+    .sm-lb-table-value {
+        width: clamp(125px,100%,60px);
+        padding: 10px 0;
+        border: 1px solid #d9d9d9;
+        color: rgba(17,20,28,.7);
+        border-bottom: 1px solid #d9d9d9
+    }
+
+    .sm-lb-table-value span {
+        color: #11141c
+    }
+
+    
+}
+
+@media (max-width: 40em) {
+    .sm-lb-table-value {
+        width:clamp(112px,100%,60px)
+    }
+
+    .awa-container .awa-box .awa-box-tag span {
+        font-size: 26px;
+        line-height: 28px;
+    }
+
+    .smStatsBg .dd:after, .smStatsBg .dd:before, .smStatsBg .pp:after {
+        display: none;
+    }
+
+    .awa-container {
+        padding: 2rem 0;
+    }
+
+    .np-recordTab--title {
+        margin-top: 2rem;
+    }
+}
